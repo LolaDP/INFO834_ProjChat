@@ -12,7 +12,8 @@ The goal was to create a chat server in which it is possible:
 ## What we did 
 The chat server is running and we store the messages in the database.
 Users are also stored in the database. It is possible to add a new user and log in. However, we did not have time to set up sessions. 
-The rooms for private chats are also not finished.
+The rooms for private chats are also not finished. 
+Also, when someone sends a new message in the chat it appears (as well as the sender) as undefined and you have to reload the page to see it appear. We have not yet fixed this problem.
  
 ## Used tools :
 - Node.js

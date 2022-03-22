@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home page</title>
+        <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+        <script defer src="id.js"></script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                font: 13px Helvetica, Arial;
+                background-color: #050536;
+            }
+            span#newcoFormSpan {
+                display: inline-block; 
+                align-content: center;
+                padding: 3px;
+                bottom: 0;
+                width: 45%;
+            }
+    
+            span#coFormSpan {
+                display: inline-block; 
+                align-content: center;
+                padding: 3px;
+                bottom: 0;
+                width: 45%;
+            }
+    
+            h1,h2{
+                color:aliceblue;
+                text-align: center;
+            }
+    
+            form input {
+                border: 1;
+                padding: 10px;
+                width: 100%;
+                margin-right: 0.5%;
+            }
+    
+            form button {
+                width: 100%;
+                background: rgb(130, 224, 255);
+                border: None;
+                padding: 10px;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+        <h1>Welcome on the app App</h1>
+    
+        <span id="newcoFormSpan">
+            <h2>New user</h2>
+            <form method="post" id="newcoForm" >
+                <input type="text" name="username" placeholder="Enter your username">
+                <input type="text" name="password" placeholder="Enter your password">
+                <button id="newconnect" onclick="redirect()">Create account and connection</button>
+            </form>
+        </span>
+    
+        <span id="coFormSpan">
+        <h2>User connection</h2>
+        <form id="coForm" method = "post">
+            <input type="text" id="username" class="text_field" name="username" placeholder="Enter your username">
+            <input type="text" id="password" class="text_field"name="password" placeholder="Enter your password">
+            <button id="connect" >Connection</button>
+        </form>
+        </span>
+        
+    
+    </body>

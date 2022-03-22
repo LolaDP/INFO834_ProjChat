@@ -56,6 +56,6 @@ Copy the link and paste it in Server.js, line 5 in const mongoDB (be sure to rep
 node server.js
 If everything went smoothly, you should see the message connected in your terminal
   
-  12. Open connection.html with Live Server
+  13. Open connection.html with Live Server
 
 

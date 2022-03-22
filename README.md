@@ -14,3 +14,6 @@ The goal was to create a chat server in which it is possible:
 - Socket.io
 - Mongo Atlas
 
+## How to run : 
+  1. Clone the repository:
+git clone 

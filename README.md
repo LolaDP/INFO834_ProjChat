@@ -8,6 +8,11 @@ The goal was to create a chat server in which it is possible:
   - to know who is connected
   - to have the history of the messages
   - to be able to make a chat with another user
+
+## What we did 
+The chat server is running and we store the messages in the database.
+Users are also stored in the database. It is possible to add a new user and log in. However, we did not have time to set up sessions. 
+The rooms for private chats are also not finished.
  
 ## Used tools :
 - Node.js
